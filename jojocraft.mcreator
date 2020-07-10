@@ -1,0 +1,39 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "TheWorld",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_world"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "The World": "The World"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "jojocraft",
+    "modName": "JojoCraft",
+    "version": "1.0.0",
+    "author": "VOyD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "addon-1.14.x",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.jojocraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

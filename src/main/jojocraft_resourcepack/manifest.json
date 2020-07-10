@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "JojoCraft",
+    "uuid": "8011c692-0c5d-394a-bb13-72f3c11d30c6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      14,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "b96364fb-28a3-3a83-82b7-8765a6d18148",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "VOyD, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}

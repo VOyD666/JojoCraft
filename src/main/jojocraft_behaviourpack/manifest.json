@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "JojoCraft",
+    "uuid": "0d6cbf03-2f53-3e32-876c-20ef37f39b21",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      14,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "287d9b48-8dad-31d3-9761-7c35c3c26c2c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8011c692-0c5d-394a-bb13-72f3c11d30c6",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "VOyD, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}
