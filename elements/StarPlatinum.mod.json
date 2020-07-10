@@ -2,10 +2,10 @@
   "_fv": 8,
   "_type": "mob",
   "definition": {
-    "mobName": "The World",
+    "mobName": "Star Platinum",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "the_world.png",
+    "mobModelTexture": "star_platinum.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -52429,
+      "value": -6750055,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16724941,
+      "value": -13312,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -46,12 +46,12 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 10,
-    "movementSpeed": 0.6,
+    "attackStrength": 8,
+    "movementSpeed": 0.45,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 100,
-    "xpAmount": 100,
+    "xpAmount": 999,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
@@ -67,7 +67,7 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "Blocks.DIAMOND_BLOCK"
     },
     "livingSound": {
       "value": ""
@@ -88,7 +88,7 @@
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"21\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block><block type=\"attack_entity\" x=\"69\" y=\"238\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMob</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"wander\"><field name=\"speed\">2</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"107\" y=\"406\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><next><block type=\"look_around\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityAgeable</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"doors_break\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -100,8 +100,8 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 6,
+    "maxNumberOfMobsPerGroup": 8,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

@@ -2,13 +2,13 @@
   "format_version": "1.8.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "jojocraft:the_world",
+      "identifier": "jojocraft:star_platinum",
       "textures": {
-        "default": "textures/the_world.png"
+        "default": "textures/star_platinum.png"
       },
       "spawn_egg": {
-        "base_color": "#ff3333",
-        "overlay_color": "#00cc33"
+        "base_color": "#990099",
+        "overlay_color": "#ffcc00"
       },
       "materials": {
         "default": "entity_alphatest"

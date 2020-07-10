@@ -2,19 +2,20 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "TheWorld",
+      "name": "StarPlatinum",
       "type": "mob",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "the_world"
+      "registry_name": "star_platinum"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "Star Platinum": "Star Platinum",
       "The World": "The World"
     }
   },

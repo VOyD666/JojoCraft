@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "jojocraft:the_world",
+      "identifier": "jojocraft:star_platinum",
       "population_control": "animal"
     },
     "conditions": [
@@ -23,8 +23,8 @@
           "default": 20
         },
         "minecraft:herd": {
-          "min_size": 4,
-          "max_size": 4
+          "min_size": 6,
+          "max_size": 8
         }
       }
     ]
